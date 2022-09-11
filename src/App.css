@@ -32,7 +32,7 @@ h1 {
 
 .text-box {
     margin-top: 10px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .button-group {
@@ -117,4 +117,8 @@ image {
 
 table {
     border-spacing: 0px;
+}
+
+.ant-input-search-with-button {
+    margin-bottom: 30px;
 }
