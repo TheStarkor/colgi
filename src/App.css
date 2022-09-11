@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+.center_align {
+    min-width: 1250px;
+    max-width: 1250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.serif {
+    font-family: “Times New Roman”, Times, serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.serif {
+    font-family: “Times New Roman”, Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+h1 {
+    line-height: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 2rem;
+}
+
+.text-box {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.button-group {
+    margin-top: 50px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.explain {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.quotes {
+    margin-top: 0;
+    font-style: italic;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 15px;
+
+}
+
+td {
+    height: 30px;
+}
+
+tr {
+    height: 30px;
+}
+
+.bigButton {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    border-radius: 0px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #888;
+    margin: -1px;
+}
+
+.bigButton:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.bigButton:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.bigButton.selected {
+    background: #666;
+    color: white;
+}
+
+/* .choiceTable {
+    margin:0; padding:0;
+    border-spacing:0;
+} */
+
+.helptext {
+    padding-bottom: 15px;
+}
+
+image {
+    flex: 1;
+}
+
+.rowC {
+    display: flex;
+    flex-direction: row;
+}
+
+.feedback {
+    max-width: 400px;
+}
+
+
+table {
+    border-spacing: 0px;
 }
